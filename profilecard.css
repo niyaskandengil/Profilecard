@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to right top, #ABE9CD,#3EADCF, #37D5D6 ,#36096D);
+	font-family: Montserrat, sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card {
+	background-color: #231E39;
+	border-radius: 25px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+	color: #B3B8CD;
+	padding: 30px 0 0;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+
+
+.card img {
+	border: 1px solid #37D5D6;
+	border-radius: 50%;
+	padding: 7px;
+	height: 150px;
+	width: 150px;
+}
+
+button.a {
+	background-color: #3EADCF;
+	border: 1px solid #3EADCF;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+button.a span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+button.a span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  button.a:hover span {
+	padding-right: 25px;
+  }
+  
+  button.a:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+	
+button.a.b {
+	background-color: transparent;
+	color: #3EADCF;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+	margin-left: px;
+}
+
+.skills ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
