@@ -69,6 +69,7 @@ button.a span {
 	position: relative;
 	transition: 0.5s;
 }
+
 button.a span:after {
 	content: '\00bb';
 	position: absolute;
